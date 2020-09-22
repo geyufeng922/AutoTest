@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="3" name="TestSuite" time="13.943" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\admin\IdeaProjects\AutoTest\Chapter12"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Users\admin\IdeaProjects\AutoTest\Chapter12"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\IdeaProjects\AutoTest\Chapter12\target\surefire\surefirebooter2589080962505350534.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\lib;C:\Program Files\Java\jdk1.8.0_171\lib\tools.jar;D:\oracle\app\admin\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\sofa\maven\apache-maven-3.6.3\bin;D:\sofa\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="surefire.test.class.path" value="C:\Users\admin\IdeaProjects\AutoTest\Chapter12\target\test-classes;C:\Users\admin\IdeaProjects\AutoTest\Chapter12\target\classes;D:\sofa\repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\sofa\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;D:\sofa\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;D:\sofa\repository\org\json\json\20170516\json-20170516.jar;D:\sofa\repository\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;D:\sofa\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\sofa\repository\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;D:\sofa\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\sofa\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\sofa\repository\org\xerial\sqlite-jdbc\3.21.0.1\sqlite-jdbc-3.21.0.1.jar;D:\sofa\repository\org\freemarker\freemarker\2.3.27-incubating\freemarker-2.3.27-incubating.jar;D:\sofa\repository\org\mongodb\mongodb-driver\3.6.3\mongodb-driver-3.6.3.jar;D:\sofa\repository\org\mongodb\bson\3.6.3\bson-3.6.3.jar;D:\sofa\repository\org\mongodb\mongodb-driver-core\3.6.3\mongodb-driver-core-3.6.3.jar;D:\sofa\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\sofa\repository\com\google\guava\guava\20.0\guava-20.0.jar;D:\sofa\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\sofa\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;D:\sofa\repository\org\testng\testng\6.10\testng-6.10.jar;D:\sofa\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\sofa\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="C:\Users\admin\IdeaProjects\AutoTest\Chapter12\target\test-classes;C:\Users\admin\IdeaProjects\AutoTest\Chapter12\target\classes;D:\sofa\repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\sofa\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;D:\sofa\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;D:\sofa\repository\org\json\json\20170516\json-20170516.jar;D:\sofa\repository\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;D:\sofa\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\sofa\repository\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;D:\sofa\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\sofa\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\sofa\repository\org\xerial\sqlite-jdbc\3.21.0.1\sqlite-jdbc-3.21.0.1.jar;D:\sofa\repository\org\freemarker\freemarker\2.3.27-incubating\freemarker-2.3.27-incubating.jar;D:\sofa\repository\org\mongodb\mongodb-driver\3.6.3\mongodb-driver-3.6.3.jar;D:\sofa\repository\org\mongodb\bson\3.6.3\bson-3.6.3.jar;D:\sofa\repository\org\mongodb\mongodb-driver-core\3.6.3\mongodb-driver-core-3.6.3.jar;D:\sofa\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\sofa\repository\com\google\guava\guava\20.0\guava-20.0.jar;D:\sofa\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\sofa\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;D:\sofa\repository\org\testng\testng\6.10\testng-6.10.jar;D:\sofa\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\sofa\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="C:\Users\admin\IdeaProjects\AutoTest\Chapter12\target\surefire\surefirebooter2589080962505350534.jar C:\Users\admin\IdeaProjects\AutoTest\Chapter12\target\surefire\surefire5185403345116482241tmp C:\Users\admin\IdeaProjects\AutoTest\Chapter12\target\surefire\surefire3714000808016568636tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\sofa\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="2.121"/>
+  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="0.088"/>
+  <testcase classname="com.course.cases.AddUserTest" name="addUser" time="0.074">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.course.cases.AddUserTest.addUser(AddUserTest.java:22)
+</failure>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoTest" name="getUserInfo" time="2.069"/>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="updateUserInfo" time="2.062">
+    <failure message="
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at com.course.cases.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:35)
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:875)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:708)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:701)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 37 more
+</failure>
+    <system-out>UpdateUserInfoCase(id=1, userId=2, userName=hahahaha, sex=null, age=null, permission=null, isDelete=1, expected=null)
+http://localhost:8889/v1/updateUserInfo
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="deleteUser" time="3.051">
+    <failure message="
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at com.course.cases.UpdateUserInfoTest.deleteUser(UpdateUserInfoTest.java:60)
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:875)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:708)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:701)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 37 more
+</failure>
+    <system-out>UpdateUserInfoCase(id=2, userId=7, userName=null, sex=null, age=null, permission=null, isDelete=1, expected=null)
+http://localhost:8889/v1/updateUserInfo
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoListTest" name="getUserListInfo" time="2.077"/>
+</testsuite>
