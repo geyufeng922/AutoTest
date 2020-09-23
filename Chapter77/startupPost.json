@@ -1,0 +1,30 @@
+[
+  {
+    "description": "模拟一个POST请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是我的第一个mocopost请求",
+      "headers":{
+        "Content-Type":"text/html;charset=GBK"
+      }
+    }
+  },
+  {
+    "description": "这是一个带参数的post请求",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "胡汉三",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text": "胡汉三带着参数来啦！！！"
+    }
+
+}
+]

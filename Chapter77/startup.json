@@ -1,11 +1,16 @@
 [
   {
-    "description": "这是我们的第一个mock例子"，
+    "description": "这是我们的第一个mock例子",
     "request": {
-      "uri": "/demo"
-    },
+      "uri": "/demo",
+      "method": "get"
+  },
     "response": {
-      "text": "这是第一个mock框架demo"
+    "text":"葛祥军你很棒哦，已经带你媳妇入道啦，前途一片光明，敬请期待吧",
+      "headers":{
+        "Content-Type":"text/html;charset=GBK"
+      }
     }
   }
 ]
+
